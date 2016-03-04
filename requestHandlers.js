@@ -5,6 +5,7 @@ function steamapi(response, postData) {
   console.log("Request handler 'steamapi' was called.");
 
   // Set global Steam API Key
+  //Remember to change this to a valid key..
   Steam.key = "35628F6B0E674SDEC3545FE798C";
 
   Steam.ready(function(err)  {
